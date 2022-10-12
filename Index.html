@@ -8,6 +8,7 @@
 
   <!-- Links CSS -->
   <link rel="stylesheet" href="Css/Geral.css">
+  <link rel="stylesheet" href="/Css/Detalhes.css">
   <!-- Links CSS -->
 
   <!-- Link de Fontes -->
@@ -24,17 +25,21 @@
   <main>
     <div class="centralizador">
         <div class="ajustador">
-            <h1 class="nome_da_nmpresa_1">NUTRI</h1><h1 class="nome_da_empresa_2">Conhecimentos</h1>
+            <div class="titulo">
+                <h1 class="nome_da_empresa_1">NUTRI</h1>
+                <h1 class="nome_da_empresa_2">Conhecimentos</h1>
+            </div>
+        
 
             <h2 class="nome_da_pagina">Kit de Nutrição Pessoal</h2>
             <h3 class="descricao_da_pagina">Tudo que você precisa saber para fazer suas próprias receitas, dietas, treinos e muito mais.</h3>
 
             <div class="formulario">
 
-              <div class="imagem_ebook">
-                <img src="/Assets/Fundo do Ebook.png" alt="Fundo Ebook">
-                <img src="/Assets/E-book.png" alt="E-book">
-                <img src="/Assets/Cenourinha.png" alt="Figurinha de Cenoura">
+              <div class="imagens_ebook">
+                <img class="fundo_ebook" src="/Assets/Fundo do Ebook.png" alt="Fundo Ebook">
+                <img class="ebook" src="/Assets/E-book.png" alt="E-book">
+                <img class="cenourinha" src="/Assets/Cenourinha.png" alt="Figurinha de Cenoura">
               </div> <!-- imagem_ebook -->
 
               <div class="inputs">
@@ -42,16 +47,17 @@
 
                 <input type="text" name="nome" id="input_nome" placeholder="Nome">
                 <input type="email" name="email" id="input_email" placeholder="E-mail">
-                <input type="number" name="numero" id="input_numero" placeholder="Número de Telefone">
+                <input type="tel" name="tel" id="input_tel" placeholder="Número de Telefone">
                 <input type="text" name="atuacao" id="input_atuacao" placeholder="Qual a sua área de atuação?">
                 <input type="text" name="cargo" id="input_cargo" placeholder="Qual o seu cargo?">
-
+                <input type="text" name="calculo" id="input_calculo" placeholder="Quanto é 4*5?">
+                <br>
                 <input type="submit" value="Enviar">
               </div> <!-- inputs -->
 
             </div> <!-- formulario -->
 
-            <p>Todos as informações aqui contidas são apenas ilustrativas com o objetivo de estudos.</p>
+            <p class="rodape">Todos as informações aqui contidas são apenas ilustrativas com o objetivo de estudos.</p>
         </div> <!-- ajustador -->
     </div> <!-- centralizador -->
   </main>

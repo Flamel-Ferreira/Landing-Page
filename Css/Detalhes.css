@@ -1,0 +1,74 @@
+*{
+  --laranja_principal: #D9A071;
+  --laranja_escuro: #A47053;
+  --verde_claro: #D6ECD4;
+}
+
+/* TÍTULOS */
+    .titulo{
+      padding: 30px 0;
+    }
+    h1.nome_da_empresa_1{
+      font-family: 'Julius Sans One';
+      font-size: 40px;
+      display: inline;
+    }
+    h1.nome_da_empresa_2{
+      font-family: 'Italianno';
+      font-size: 40px;
+      display: inline;
+    }
+
+    h2.nome_da_pagina{
+      font-size: 40px;
+    }
+    h3.descricao_da_pagina{
+      font-weight: 300;
+      margin-bottom: 50px;
+    }
+/* TÍTULOS */
+
+/* FORMULÁRIO */
+    .formulario{
+      margin-bottom: 30px;
+    }
+
+    .inputs h3{
+      color: var(--laranja_principal);
+      margin-bottom: 30px;
+    }
+
+    .inputs input:not(input[type="submit"]){
+      border-radius: 6px;
+      margin-bottom: 8px;
+      color: black;
+      padding: 8px;
+      border:none;
+      width:100%;
+    }
+
+    .inputs input::placeholder{
+      color:#D4CDCD;
+    }
+
+    .inputs input:focus{
+      outline:none;
+    }
+
+    .inputs input[type="submit"]{
+      background-color: var(--laranja_principal);
+      border-radius: 30px;
+      padding: 10px 40px;
+      border: none;
+    }
+
+    .inputs input[type="submit"]:hover{
+      background-color: var(--laranja_escuro);
+    }
+/* FORMULÁRIO */
+
+/* RODAPÉ */
+    p.rodape{
+      padding:20px;
+    }
+/* RODAPÉ */
